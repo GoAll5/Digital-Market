@@ -1,0 +1,12 @@
+﻿@model AppUser
+<html>
+<head><title>Hello</title></head>
+<body>
+    <h1>Welcome @Model.UserName !</h1>
+<h3>Info about you: </h3>
+<h4>Your email: @Model.Email</h4>
+<h4>Your age: @Model.Age</h4>
+<h4>Your full name: @Model.FullName</h4>
+    <a asp-action="LogOut" class="btn btn-danger">Log Out</a>
+</body>
+</html>
